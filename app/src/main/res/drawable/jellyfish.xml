@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Main bell/dome -->
+    <path
+        android:pathData="M30,40 C30,20 70,20 70,40 C70,50 50,55 50,55 C50,55 30,50 30,40"
+        android:fillColor="#88c0d0"
+        android:strokeColor="#5e81ac"
+        android:strokeWidth="1"/>
+
+    <!-- Inner bell details -->
+    <path
+        android:pathData="M35,40 C35,25 65,25 65,40"
+        android:strokeColor="#5e81ac"
+        android:strokeWidth="0.75"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000"/>
+
+    <!-- Tentacles -->
+    <path
+        android:pathData="M32.5,40 Q35,60 30,80"
+        android:strokeColor="#88c0d0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+
+    <path
+        android:pathData="M40,42.5 Q42.5,65 37.5,85"
+        android:strokeColor="#88c0d0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+
+    <path
+        android:pathData="M50,43.5 Q50,70 50,90"
+        android:strokeColor="#88c0d0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+
+    <path
+        android:pathData="M60,42.5 Q57.5,65 62.5,85"
+        android:strokeColor="#88c0d0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+
+    <path
+        android:pathData="M67.5,40 Q65,60 70,80"
+        android:strokeColor="#88c0d0"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"/>
+
+    <!-- Wavy tentacle details -->
+    <path
+        android:pathData="M32.5,50 Q35,55 32.5,60 Q30,65 32.5,70"
+        android:strokeColor="#5e81ac"
+        android:strokeWidth="0.75"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000"/>
+
+    <path
+        android:pathData="M67.5,50 Q65,55 67.5,60 Q70,65 67.5,70"
+        android:strokeColor="#5e81ac"
+        android:strokeWidth="0.75"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000"/>
+
+    <!-- Cute smile -->
+    <path
+        android:pathData="M42.5,42.5 Q50,47.5 57.5,42.5"
+        android:strokeColor="#5e81ac"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Pink dimples -->
+    <path
+        android:pathData="M40,42.5 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#ffb7c5"
+        android:fillAlpha="0.6"/>
+
+    <path
+        android:pathData="M60,42.5 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+        android:fillColor="#ffb7c5"
+        android:fillAlpha="0.6"/>
+
+</vector>

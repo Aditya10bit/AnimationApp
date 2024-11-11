@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="60dp"
+    android:viewportWidth="100"
+    android:viewportHeight="60">
+
+    <!-- Fish body -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="2"
+        android:pathData="M80,30 C80,18 70,8 50,8 C20,8 10,30 10,30 C10,30 20,52 50,52 C70,52 80,42 80,30 Z" />
+
+    <!-- Tail -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="2"
+        android:pathData="M80,30 L95,15 L95,45 Z" />
+
+    <!-- Eye -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M25,25 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+
+    <!-- Fin (no fill color) -->
+    <path
+        android:strokeColor="#0288D1"
+        android:strokeWidth="2"
+        android:pathData="M40,8 C45,0 55,0 60,8" />
+</vector>
